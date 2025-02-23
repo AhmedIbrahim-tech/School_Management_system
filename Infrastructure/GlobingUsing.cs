@@ -1,0 +1,14 @@
+﻿global using Data.Interface;
+global using Infrastructure.Context;
+global using Infrastructure.GenericRepository;
+global using Data.GenericRepository;
+global using Infrastructure.Repository;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;
+global using Data.Entities.Identities;
+global using Data.Entities.Models;
+global using Data.Entities.ThirdParty.MailService.Dtos;
+global using Data.Helpers;

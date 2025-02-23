@@ -1,0 +1,35 @@
+﻿global using AutoMapper;
+global using Core.BaseResponse;
+global using Core.Features.Students.Commands.Requests;
+global using Core.Features.Students.Queries.Requests;
+global using Core.Features.Students.Queries.Responses;
+global using Core.Localization;
+global using Core.Pagination;
+global using Data.Enums;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Localization;
+global using Services.Interface.IServices;
+global using System.Net;
+global using System.Reflection;
+global using Core.Features.ApplicationUser.Queries.Responses;
+global using Data.Entities.Identities;
+global using Services.Interface;
+global using Core.Features.Authorization.Queries.Responses;
+global using Core.Features.Authorization.Commands.Requests;
+global using Data.Entities.DTOs;
+global using Data.Entities.Models;
+global using Core.Features.Authentication.Queries.Requests;
+global using Core.Features.ApplicationUser.Commands.Requests;
+global using Core.Features.Authentication.Commands.Requests;
+global using Data.Entities.Authentication;
+global using Core.Features.ApplicationUser.Queries.Requests;
+global using Services.Services;
+global using Core.Features.Authorization.Queries.Requests;
+global using Core.Features.Emails.Commands.Requests;
+global using Data.Entities.ThirdParty.MailService.Dtos;
+global using Data.Command;
+
+
